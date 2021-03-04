@@ -53,4 +53,5 @@ python3 pipeline.py full
 python3 pipeline.py test
 ```
 When running **full** set, all outputs will be written to the miniProject_Annie_Novak folder.
+
 When running **test** set, all outputs will be written to the test_outputs folder.
