@@ -38,17 +38,17 @@ library(dplyr)
  ---
 To run pipeline from your command line, clone this repository to your workspace.
 ```
-git clone 
+git clone https://github.com/annie-novak9/miniProject.git
 ```
 
 When running script in command line, the pipeline script takes one required argument 'dataset'. The options are either 'full' (in order to test the full set of input reads) or 'test' (which only runs the reduced input read files and runs in about 5 minutes).
 
-Example to run full set:
+**Example to run full set:**
 ```
 python3 pipeline.py full
 ```
 
-Example to run test set:
+**Example to run test set:**
 ```
 python3 pipeline.py test
 ```
