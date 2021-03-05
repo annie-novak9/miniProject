@@ -37,25 +37,25 @@ library(dplyr)
  ## To Run ##
  ---
 * To run pipeline from your command line, clone this repository to your workspace.
-```
-git clone https://github.com/annie-novak9/miniProject.git
-```
+    ```
+    git clone https://github.com/annie-novak9/miniProject.git
+    ```
 
 * Then you need to manually change your directory into the miniProject directory you just cloned using this command:
-```
-cd ~/miniProject
-```
+    ```
+    cd ~/miniProject
+    ```
 
 * When running script in command line, the pipeline script takes one required argument 'dataset'. The options are either 'full' (in order to test the full set of input reads) or 'test' (which only runs the reduced input read files and runs in about 5 minutes).
 
-**Example to run full set:**
-```
-python3 pipeline.py full
-```
-**Example to run test set:**
-```
-python3 pipeline.py test
-```
+    **Example to run full set:**
+    ```
+    python3 pipeline.py full
+    ```
+    **Example to run test set:**
+    ```
+    python3 pipeline.py test
+    ```
 
 * When running **full** set, all outputs will be written to the miniProject_Annie_Novak folder.
 
